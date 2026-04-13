@@ -1,2 +1,20 @@
-# To-do-app
-Add tasks Delete tasks Mark complete Saves data (important for real-world)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>To-Do List</h1>
+  <input id="taskInput" placeholder="Enter task">
+  <button onclick="addTask()">Add</button>
+
+  <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
